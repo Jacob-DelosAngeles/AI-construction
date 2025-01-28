@@ -1,13 +1,13 @@
-# 📦 Streamlit App Starter Kit 
+# 🤖 AI application for Compressive Strength of Concrete 🏗️
 ```
 ⬆️ (Replace above with your app's name)
 ```
 
-Description of the app ...
+Compressive Strength Prediction ...
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://AI-construction.streamlit.app/)
 
 ## GitHub Codespaces
 
