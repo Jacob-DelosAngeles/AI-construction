@@ -1,9 +1,7 @@
 # 🤖 AI application for Compressive Strength of Concrete 🏗️
-```
-⬆️ (Replace above with your app's name)
-```
 
-Compressive Strength Prediction ...
+
+Compressive Strength Prediction 
 
 ## Demo App
 
