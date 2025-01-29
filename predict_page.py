@@ -11,7 +11,7 @@ data = load_model()
 regressor = data['model']
 
 def show_predict_page():
-  st.title("Concrete's Compressive Strength Intelligent Predictor")
+  st.title(" 🏛️ Concrete's Compressive Strength Intelligent Predictor")
 
   st.write("""### Please input information """)
   
