@@ -14,5 +14,7 @@ def show_predict_page():
   st.title("Concrete's Compressive Strength Intelligent Predictor")
 
   st.write("""### Please input information """)
+  st.sidebar.selectbox("Explore or Predict", ("Predict, Explore"))
+
 
 
