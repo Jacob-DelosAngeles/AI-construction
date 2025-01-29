@@ -15,7 +15,7 @@ def show_predict_page():
 
   st.write("""### Please input information """)
   
-  st.sidebar.selectbox("Explore or Predict", ("Predict, Explore"))
+  
 
 
 
