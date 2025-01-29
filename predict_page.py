@@ -1,7 +1,18 @@
 import streamlit as st
+import pickle
+import numpy as np
 
+def load_model():
+  with open('saved_steps.pkl', 'rb') as file:
+    data = pickle.load(file)
+  return data
 
-st.title('🏗️ Velocity AI')
+data = load_model()
+regressor = data['model']
 
-st.info('Forward Progress. Proper Direction')
+def show_predict_page():
+  st.title('Concrete's Compressive Strength Intelligent Predictor')
+
+  st.write("""### Please input information """)
+
 
