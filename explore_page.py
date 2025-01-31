@@ -1,6 +1,6 @@
 import streamlit as st
 
 def show_explore_page():
-  st.title("🤖 Velocity AI 🏗️")
+  st.title("🤖 StrucSure 🏗️")
 
-  st.info("""### Forward Progress. Proper Direction """)
+  st.info("""### Building Strength with Data-Driven Intelligence """)
