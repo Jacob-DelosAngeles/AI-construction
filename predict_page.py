@@ -37,7 +37,7 @@ def show_predict_page():
     # Confirm if standard deviation nga ba gamit sa normalization
     # (X - mu)/sigma formula to normalize 
 
-    X_norm = (X[0]-data['mu'])/data['sigma']
+    X_norm = (X-data['mu'])/data['sigma']
 
     # show mu and sigma, now working
     st.write(f"mu: {data['mu']}")
