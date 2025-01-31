@@ -24,6 +24,7 @@ def show_predict_page():
   superplasticizer = st.number_input("Superplasticizer (g)", placeholder = "Type a number")
   courseAggregate = st.number_input("Course Aggregate (g)", placeholder = "Type a number")
   fineAggregate = st.number_input("Fine Aggregate (g)", placeholder = "Type a number")
+  age = st.number_input("Age (days)" = "Type a number")
   waterToCement = st.number_input("Water to Cement Ratio (g)", placeholder = "Type a number")
   
   predict = st.button("Predict Strength")
