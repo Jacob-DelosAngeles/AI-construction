@@ -12,8 +12,7 @@ regressor = data['model']
 
 def show_predict_page():
   st.title(" 🏛️StrucSure: Concrete's Compressive Strength Intelligent Predictor")
-
-  st.write("""### Please input information """)
+  st.info("""#### Please input information """)
   
   
 
