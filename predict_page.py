@@ -37,12 +37,14 @@ def show_predict_page():
     # Confirm if standard deviation nga ba gamit sa normalization
     # (X - mu)/sigma formula to normalize 
 
-    # show mu and sigma
+    X_norm = (X[0]-data['mu'])/data['sigma']
+
+    # show mu and sigma, now working
     st.write(f"mu: {data['mu']}")
     st.write(f"sigma: {data['sigma']}")
     
     
-    strength = regressor.predict(X)
+    strength = regressor.predict(X_norm)
     st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
     
 
