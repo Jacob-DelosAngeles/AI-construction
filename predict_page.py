@@ -27,6 +27,15 @@ def show_predict_page():
   
   predict = st.button("Predict Strength")
 
+  if predict:
+    X = np.array([[cement, slag, flyash, water, superplasticizer, courseAggregate, fineAggregate, waterToCement]])
+
+    # TO DO: normalize the values first
+    
+    strength = regressor.predict(X)
+    st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
+    
+
   
   
 
