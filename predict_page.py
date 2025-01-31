@@ -32,23 +32,13 @@ def show_predict_page():
   if predict:
     X = np.array([[cement, slag, flyash, water, superplasticizer, courseAggregate, fineAggregate, age, waterToCement]])
 
-    # TO DO: normalize the values first
-    # Get the mean and standard deviation values
-    # Confirm if standard deviation nga ba gamit sa normalization
-    # (X - mu)/sigma formula to normalize 
-
+    # Normalization of Data
     X_norm = (X-data['mu'])/data['sigma']
 
-    # show mu and sigma, now working
-    # st.write(f"mu: {data['mu']}")
-    # st.write(f"sigma: {data['sigma']}")
-
-    st.write(X_norm)
-    
     strength = regressor.predict(X_norm)
     st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
     
-
+   
   
   
 
