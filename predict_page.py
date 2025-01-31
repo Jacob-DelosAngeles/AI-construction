@@ -40,9 +40,10 @@ def show_predict_page():
     X_norm = (X-data['mu'])/data['sigma']
 
     # show mu and sigma, now working
-    st.write(f"mu: {data['mu']}")
-    st.write(f"sigma: {data['sigma']}")
-    
+    # st.write(f"mu: {data['mu']}")
+    # st.write(f"sigma: {data['sigma']}")
+
+    st.write(X_norm)
     
     strength = regressor.predict(X_norm)
     st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
