@@ -35,6 +35,10 @@ def show_predict_page():
     # Get the mean and standard deviation values
     # Confirm if standard deviation nga ba gamit sa normalization
     # (X - mu)/sigma formula to normalize 
+
+    # show mu and sigma
+
+    
     
     strength = regressor.predict(X)
     st.subheader(f"Estimated Strength: {strength:.2f} csMPa")
