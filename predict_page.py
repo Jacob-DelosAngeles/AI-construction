@@ -37,7 +37,8 @@ def show_predict_page():
     # (X - mu)/sigma formula to normalize 
 
     # show mu and sigma
-
+    st.write(f"mu: {data['mu']}")
+    st.write(f"sigma: {data['sigma']}")
     
     
     strength = regressor.predict(X)
