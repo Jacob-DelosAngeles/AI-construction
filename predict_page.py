@@ -43,7 +43,7 @@ def show_predict_page():
     
     
     strength = regressor.predict(X)
-    st.subheader(f"Estimated Strength: {strength:.2f} csMPa")
+    st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
     
 
   
