@@ -17,13 +17,18 @@ def show_predict_page():
 
 # Variables for prediction
 
+  st.subheader('Primary Materials')
   cement = st.number_input("Cement (g)", placeholder = "Type a number")
-  slag = st.number_input("Slag (g)", placeholder = "Type a number") 
-  flyash = st.number_input("Flyash (g)", placeholder = "Type a number")
-  water = st.number_input("Water (g)", placeholder = "Type a number")
-  superplasticizer = st.number_input("Superplasticizer (g)", placeholder = "Type a number")
   courseAggregate = st.number_input("Course Aggregate (g)", placeholder = "Type a number")
   fineAggregate = st.number_input("Fine Aggregate (g)", placeholder = "Type a number")
+  water = st.number_input("Water (g)", placeholder = "Type a number")
+
+  st.subheader('Admixtures')
+  superplasticizer = st.number_input("Superplasticizer (g)", placeholder = "Type a number")
+  slag = st.number_input("Slag (g)", placeholder = "Type a number") 
+  flyash = st.number_input("Flyash (g)", placeholder = "Type a number")
+
+  st.subheader('Additional Info')
   age = st.number_input("Age (days)", placeholder = "Type a number")
   waterToCement = st.number_input("Water to Cement Ratio (g)", placeholder = "Type a number")
   
