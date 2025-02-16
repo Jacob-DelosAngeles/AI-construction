@@ -4,8 +4,8 @@ from explore_page import show_explore_page
 
 
 sidebar = st.sidebar #.selectbox("Explore or Predict", ("Predict", "Explore"))
-explore = sidebar.button("Explore")
-predict = sidebar.button("Predict")
+explore = sidebar.button(" 🌍 Explore  ")
+predict = sidebar.button(" ✅ Predict  ")
 
 if explore:
   show_explore_page()
