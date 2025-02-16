@@ -7,11 +7,14 @@ sidebar = st.sidebar #.selectbox("Explore or Predict", ("Predict", "Explore"))
 explore = sidebar.button(" 🌍 Explore  ")
 predict = sidebar.button(" ✅ Predict  ")
 
-if explore:
-  show_explore_page()
 
-elif predict:
+show_explore_page()
+
+if predict:
   show_predict_page()
+
+elif explore:
+  show_explore_page()
 
 
   
