@@ -8,7 +8,7 @@ explore = sidebar.button(" 🌍 Explore  ")
 predict = sidebar.button(" ✅ Predict  ")
 
 
-if explore and predict not True:
+if (explore and predict) == False:
   show_explore_page()
   
 if predict:
