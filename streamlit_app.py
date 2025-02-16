@@ -10,11 +10,10 @@ predict = sidebar.button("Predict")
 if explore:
   show_explore_page()
 
-if predict:
+elif predict:
   show_predict_page()
 
-else:
-  show_explore_page()
+
   
 # show_explore_page()
 #if page == "Explore":
