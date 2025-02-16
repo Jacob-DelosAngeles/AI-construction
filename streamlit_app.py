@@ -14,7 +14,7 @@ if st.sidebar.button("🌍 Explore"):
   st.session_state.page = "Explore"
 
 if st.sidebar.button("✅ Predict"):
-  st.session_stae.page = "Predict"
+  st.session_state.page = "Predict"
 
 # Display the selected page
 if st.session_state.page == "Explore":
