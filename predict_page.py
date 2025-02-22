@@ -21,7 +21,7 @@ def show_predict_page():
     }
   </style>
   """
-  st.markdown("", unsafe_allow_html=True)
+  st.markdown(page_bg_img, unsafe_allow_html=True)
 
   st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
   st.info("""#### Please input information """)
