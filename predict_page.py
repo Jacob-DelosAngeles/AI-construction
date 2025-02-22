@@ -17,6 +17,8 @@ def show_predict_page():
   st.info("""#### Please input information """)
 
 # Adding Background
+  st.markdown("", unsafe_allow_html=True)
+  
   page_bg_img = """
   <style>
   [data-testid="stAppViewContainer"]{
@@ -25,7 +27,7 @@ def show_predict_page():
   </style>
   """
   
-  st.markdown("", unsafe_allow_html=True)
+  
   
 
 # Variables for prediction
