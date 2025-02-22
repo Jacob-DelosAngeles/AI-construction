@@ -13,21 +13,18 @@ data = load_model()
 regressor = data['model']
 
 def show_predict_page():
-  st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
-  st.info("""#### Please input information """)
-
 # Adding Background
-  st.markdown("", unsafe_allow_html=True)
-  
   page_bg_img = """
   <style>
-  [data-testid="stAppViewContainer"]{
-  background-color: #fefbd8;
-  }
+    [data-testid="stAppViewContainer"] {
+      background-color: #fefbd8;
+    }
   </style>
   """
-  
-  
+  st.markdown("", unsafe_allow_html=True)
+
+  st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
+  st.info("""#### Please input information """)
   
 
 # Variables for prediction
