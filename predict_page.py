@@ -22,7 +22,7 @@ def show_predict_page():
   page_bg_img = """
   <style>
   [data-testid="stAppViewContainer"]{
-    background-color: #fefbd8;
+  background-color: #fefbd8;
   }
   </style>
   """
