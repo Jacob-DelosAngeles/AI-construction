@@ -25,7 +25,7 @@ def show_predict_page():
     background-color: rgba(0,0,0,0);
     }
     [data-testid="stSidebar"]{
-    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar.jpg")
+    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar.jpg");
     background-position: center;
     }
     
