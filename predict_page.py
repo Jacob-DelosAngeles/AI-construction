@@ -24,6 +24,11 @@ def show_predict_page():
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
+    [data-testid="stSidebar"]{
+    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar.jpg")
+    background-position: center;
+    }
+    
   </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
