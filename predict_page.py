@@ -13,6 +13,7 @@ data = load_model()
 regressor = data['model']
 
 def show_predict_page():
+  
 # Adding Background
   page_bg_img = """
   <style>
@@ -20,10 +21,14 @@ def show_predict_page():
       background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundConcrete.jpg");
       background-size: cover;
     }
+    [data-testid="stHeader"]{
+    background-color: rgba(0,0,0,0);
+    }
   </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
+# Adding Contents
   st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
   st.info("""#### Please input information """)
   
