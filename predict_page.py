@@ -17,7 +17,8 @@ def show_predict_page():
   page_bg_img = """
   <style>
     [data-testid="stAppViewContainer"] {
-      background-color: #fefbd8;
+      background-image: url("background concrete.jpg");
+      background-size: cover;
     }
   </style>
   """
