@@ -16,7 +16,7 @@ def show_predict_page():
 # Adding Background
   page_bg_img = """
   <style>
-    .stapp {
+    [data-testid="stAppViewContainer"] {
       background-color: #fefbd8;
     }
   </style>
