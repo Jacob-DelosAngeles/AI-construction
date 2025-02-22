@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
+
 def load_model():
   with open('saved_steps.pkl', 'rb') as file:
     data = pickle.load(file)
@@ -14,6 +15,18 @@ regressor = data['model']
 def show_predict_page():
   st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
   st.info("""#### Please input information """)
+
+# Adding Background
+  page_bg_img = """
+  <style>
+  [data-testid="stMain"]{
+    background-color: #fefbd8;
+  }
+  </style>
+  """
+  
+  st.markdown("", unsafe_allow_html=True)
+  
 
 # Variables for prediction
 
