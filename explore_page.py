@@ -22,6 +22,6 @@ def show_explore_page():
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
   # Add contents
-  st.title("🤖 StrucSure 🏗️")
+  st.title("🤖 VelocityAI 🏗️")
 
   st.info("""### Building Strength with Data-Driven Intelligence """)
