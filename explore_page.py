@@ -35,4 +35,4 @@ def show_explore_page():
   Instead of waiting for lab tests, you can get instant 
   predictions using our machine learning model—helping 
   you make faster, smarter, and cost-efficient decisions in 
-  your projects."""")
+  your projects.""")
