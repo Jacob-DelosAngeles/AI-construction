@@ -58,6 +58,7 @@ def show_predict_page():
   predict = st.button("Predict Strength")
 
   if predict:
+
     X = np.array([[cement, slag, flyash, water, superplasticizer, courseAggregate, fineAggregate, age, waterToCement]])
 
     # Normalization of Data
