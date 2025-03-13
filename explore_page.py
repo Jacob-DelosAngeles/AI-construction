@@ -14,10 +14,16 @@ def show_explore_page():
     }
   </style>
   """
+   # Pending sidebar background
+  """
+  [data-testid="stSidebar"]{
+    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar_1.jpg");
+    background-position: center;
+    }
+  """
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
   
-
   # Add contents
   st.title("🤖 VelocityAI 🏗️")
 
