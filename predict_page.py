@@ -121,7 +121,7 @@ def show_predict_page():
 
     else:
       for i in range(len(data_values)):
-        st.subheader(f"Please check minimum and maximum value of {data_values[i]}")
+        st.subheader(f"Please check value of {data_values[i]}")
     
    
   
