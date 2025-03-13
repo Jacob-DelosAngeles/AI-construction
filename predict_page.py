@@ -98,7 +98,8 @@ def show_predict_page():
 
   st.subheader('Additional Info')
   age = st.number_input("Age (days)", min_value = 1.0, max_value = 365.0, step = 1.0, help="Enter a value between 1 and 365 grams")
-  waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.27, max_value = 1.8, step = 1.0, help="Enter a value between 0.27 and 1.8 grams")
+  waterToCement = water / cement
+  #waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.27, max_value = 1.8, step = 1.0, help="Enter a value between 0.27 and 1.8 grams")
   
   predict = st.button("Predict Strength")
 
