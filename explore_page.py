@@ -12,14 +12,11 @@ def show_explore_page():
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
-    [data-testid="stSidebar"]{
-    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar_1.jpg");
-    background-position: center;
-    }
-    
   </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
+
+  
 
   # Add contents
   st.title("🤖 VelocityAI 🏗️")
