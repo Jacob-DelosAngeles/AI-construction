@@ -88,7 +88,7 @@ def show_predict_page():
   st.subheader('Primary Materials')
   cement = st.number_input("Cement (g)", min_value = 102.0, max_value = 540.0, step = 1.0, help="Enter a value between 102 and 540 grams")
   courseAggregate = st.number_input("Course Aggregate (g)", min_value = 801.0, max_value = 1145.0, step = 1.0,  help="Enter a value between 801 and 1145 grams")
-  fineAggregate = st.number_input("Fine Aggregate (g)", min_value = 549.0, max_value = 992.6, step = 1.0, help="Enter a value between 549 and 992.6 grams")
+  fineAggregate = st.number_input("Fine Aggregate (g)", min_value = 594.0, max_value = 992.6, step = 1.0, help="Enter a value between 594 and 992.6 grams")
   water = st.number_input("Water (g)", min_value = 121.8, max_value = 247.0, step = 1.0, help="Enter a value between 121.8 and 247 grams")
 
   st.subheader('Admixtures')
@@ -98,7 +98,7 @@ def show_predict_page():
 
   st.subheader('Additional Info')
   age = st.number_input("Age (days)", min_value = 1.0, max_value = 365.0, step = 1.0, help="Enter a value between 1 and 365 grams")
-  waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.266892527762093, max_value = 1.8823529411764703, step = 1.0, help="Enter a value between 0.266892527762093 and 1.8823529411764703 grams")
+  waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.27, max_value = 1.8823529411764703, step = 1.0, help="Enter a value between 0.266892527762093 and 1.8823529411764703 grams")
   
   predict = st.button("Predict Strength")
 
