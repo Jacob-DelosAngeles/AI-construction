@@ -86,19 +86,19 @@ def show_predict_page():
 # Variables for prediction
 
   st.subheader('Primary Materials')
-  cement = st.number_input("Cement (g)", min_value = 102, max_value = 540, step = 1, value=0.00, help="Enter a value between 102 and 540 grams")
-  courseAggregate = st.number_input("Course Aggregate (g)", placeholder = "Type a number")
-  fineAggregate = st.number_input("Fine Aggregate (g)", placeholder = "Type a number")
-  water = st.number_input("Water (g)", placeholder = "Type a number")
+  cement = st.number_input("Cement (g)", min_value = 102, max_value = 540, step = 1, value=None, help="Enter a value between 102 and 540 grams")
+  courseAggregate = st.number_input("Course Aggregate (g)", min_value = 801, max_value = 1145, step = 1, value=None, help="Enter a value between 801 and 1145 grams")
+  fineAggregate = st.number_input("Fine Aggregate (g)", min_value = 549, max_value = 992.6, step = 1, value=None, help="Enter a value between 549 and 992.6 grams")
+  water = st.number_input("Water (g)", min_value = 121.8, max_value = 247, step = 1, value=None, help="Enter a value between 121.8 and 247 grams")
 
   st.subheader('Admixtures')
-  superplasticizer = st.number_input("Superplasticizer (g)", placeholder = "Type a number")
-  slag = st.number_input("Slag (g)", placeholder = "Type a number") 
-  flyash = st.number_input("Flyash (g)", placeholder = "Type a number")
+  superplasticizer = st.number_input("Superplasticizer (g)", min_value = 0, max_value = 32.2, step = 1, value=None, help="Enter a value between 0 and 32.2 grams")
+  slag = st.number_input("Slag (g)", min_value = 0, max_value = 359.4, step = 1, value=None, help="Enter a value between 0 and 359.4 grams") 
+  flyash = st.number_input("Flyash (g)", min_value = 0, max_value = 195, step = 1, value=None, help="Enter a value between 0 and 195 grams")
 
   st.subheader('Additional Info')
-  age = st.number_input("Age (days)", placeholder = "Type a number")
-  waterToCement = st.number_input("Water to Cement Ratio (g)", placeholder = "Type a number")
+  age = st.number_input("Age (days)", min_value = 1, max_value = 365, step = 1, value=None, help="Enter a value between 1 and 365 grams")
+  waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.266892527762093, max_value = 1.8823529411764703, step = 1, value=None, help="Enter a value between 0.266892527762093 and 1.8823529411764703 grams")
   
   predict = st.button("Predict Strength")
 
