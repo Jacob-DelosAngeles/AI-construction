@@ -97,9 +97,9 @@ def show_predict_page():
   flyash = st.number_input("Flyash (g)", min_value = 0.0, max_value = 195.0, step = 1.0, help="Enter a value between 0 and 195 grams")
 
   st.subheader('Additional Info')
-  age = st.number_input("Age (days)", min_value = 1.0, max_value = 365.0, step = 1.0, help="Enter a value between 1 and 365 grams")
+  age = st.number_input("Age (days)", min_value = 1.0, max_value = 365.0, step = 1.0, help="Enter a value between 1 and 365 days")
   waterToCement = water / cement
-  #waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.27, max_value = 1.8, step = 1.0, help="Enter a value between 0.27 and 1.8 grams")
+  
   
   predict = st.button("Predict Strength")
 
