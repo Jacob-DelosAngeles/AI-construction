@@ -6,7 +6,7 @@ def show_explore_page():
   page_bg_img = """
   <style>
     [data-testid="stAppViewContainer"] {
-      background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/valueProposition.png");
+      background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundConcrete.jpg");
       background-size: cover;
     }
     [data-testid="stHeader"]{
