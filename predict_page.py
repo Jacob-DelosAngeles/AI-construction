@@ -102,15 +102,26 @@ def show_predict_page():
   
   predict = st.button("Predict Strength")
 
+  
+  # If Predict button is clicked
   if predict:
 
     X = np.array([[cement, slag, flyash, water, superplasticizer, courseAggregate, fineAggregate, age, waterToCement]])
 
-    # Normalization of Data
-    X_norm = (X-data['mu'])/data['sigma']
+    # Check if each data is within the range of minimum and maximum values
 
-    strength = regressor.predict(X_norm)
-    st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
+    data_values = is_within_range(X, minimum, maximum)
+
+    if not data_values:
+      # Normalization of Data
+      X_norm = (X - data['mu'])/data['sigma']
+  
+      strength = regressor.predict(X_norm)
+      st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
+
+    else:
+      for i in range(len(data_values)):
+        st.subheader(f"Please check minimum and maximum value of {data_values[i]}")
     
    
   
