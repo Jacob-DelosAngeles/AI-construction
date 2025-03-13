@@ -86,7 +86,7 @@ def show_predict_page():
 # Variables for prediction
 
   st.subheader('Primary Materials')
-  cement = st.number_input("Cement (g)", min_value = 102, max_value = 540, step = 1, value=None, help="Enter a value between 102 and 540 grams")
+  cement = st.number_input("Cement (g)", min_value = 102, max_value = 540, step = 1, value=0.00, help="Enter a value between 102 and 540 grams")
   courseAggregate = st.number_input("Course Aggregate (g)", placeholder = "Type a number")
   fineAggregate = st.number_input("Fine Aggregate (g)", placeholder = "Type a number")
   water = st.number_input("Water (g)", placeholder = "Type a number")
