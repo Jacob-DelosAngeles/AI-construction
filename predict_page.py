@@ -94,10 +94,10 @@ def show_predict_page():
   st.subheader('Admixtures')
   superplasticizer = st.number_input("Superplasticizer (g)", min_value = 0.0, max_value = 32.2, step = 1.0, value=None, help="Enter a value between 0 and 32.2 grams")
   slag = st.number_input("Slag (g)", min_value = 0.0, max_value = 359.4, step = 1.0, value=None, help="Enter a value between 0 and 359.4 grams") 
-  flyash = st.number_input("Flyash (g)", min_value = 0.0, max_value = 195, step = 1.0, value=None, help="Enter a value between 0 and 195 grams")
+  flyash = st.number_input("Flyash (g)", min_value = 0.0, max_value = 195.0, step = 1.0, value=None, help="Enter a value between 0 and 195 grams")
 
   st.subheader('Additional Info')
-  age = st.number_input("Age (days)", min_value = 1, max_value = 365, step = 1, value=None, help="Enter a value between 1 and 365 grams")
+  age = st.number_input("Age (days)", min_value = 1.0, max_value = 365.0, step = 1.0, value=None, help="Enter a value between 1 and 365 grams")
   waterToCement = st.number_input("Water to Cement Ratio (g)", min_value = 0.266892527762093, max_value = 1.8823529411764703, step = 1.0, value=None, help="Enter a value between 0.266892527762093 and 1.8823529411764703 grams")
   
   predict = st.button("Predict Strength")
