@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 
+# Loading the Model
 def load_model():
   with open('saved_steps.pkl', 'rb') as file:
     data = pickle.load(file)
@@ -12,6 +13,46 @@ def load_model():
 data = load_model()
 regressor = data['model']
 
+
+
+
+# Checking if the Input values are within the range
+
+minimum = [102, 0, 0, 121.8, 0, 801, 594, 1, 0.2669]
+maximum = [540, 359.4, 195, 247, 32.2, 1145, 992.6, 365, 1.8824]
+def is_within_range(X_numpy_features, minimum, maximum):
+    """"
+    X_numpy_features: 2D array of integers from the user
+    minimum: List of minimum Values
+    maximum: List of Maximum Values
+    """
+
+    # Truth List
+    features = ['cement', 'slag', 'flyash', 'water', 'superplasticizer', 'course aggregate', 'fine aggregate', 'age', 'water to cement ratio']
+    errors = []
+    changeFeatures = []
+    
+    for i in range(len(X_numpy_features[0])):
+        if minimum[i] <= X_numpy_features[0][i] <= maximum[i]:
+            errors.append(True)
+        else:
+            errors.append(False)
+    
+    for e in range(len(errors)):
+        if errors[e] == True:
+            continue
+        else:
+            changeFeatures.append(features[e])
+
+    return changeFeatures
+
+
+
+
+
+
+
+# Showing the Page
 def show_predict_page():
   
 # Adding Background
