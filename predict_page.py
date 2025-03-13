@@ -88,7 +88,7 @@ def show_predict_page():
   st.subheader('Primary Materials')
   cement = st.number_input("Cement (g)", min_value = 102, max_value = 540, step = 1, value=None, help="Enter a value between 102 and 540 grams")
   courseAggregate = st.number_input("Course Aggregate (g)", min_value = 801, max_value = 1145, step = 1, value=None, help="Enter a value between 801 and 1145 grams")
-  fineAggregate = st.number_input("Fine Aggregate (g)", min_value = 549, max_value = 992.6, step = 1, value=None, help="Enter a value between 549 and 992.6 grams")
+  fineAggregate = st.number_input("Fine Aggregate (g)", min_value = 549, max_value = 992.6, step = 0.1, value=None, help="Enter a value between 549 and 992.6 grams")
   water = st.number_input("Water (g)", min_value = 121.8, max_value = 247, step = 1, value=None, help="Enter a value between 121.8 and 247 grams")
 
   st.subheader('Admixtures')
