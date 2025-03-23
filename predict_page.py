@@ -79,7 +79,8 @@ def show_predict_page():
   """
 
 # Adding Contents
-  st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
+  st.title("🏛️StrucSure")
+  st.caption("Concrete's Compressive Strength Intelligent Predictor")
   st.subheader("Please Input Information", divider = "grey")
   
 
