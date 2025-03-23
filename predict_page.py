@@ -66,71 +66,28 @@ def show_predict_page():
     background-color: rgba(0,0,0,0);
     }
 
-    /* Sidebar Main Container */
     [data-testid="stSidebar"] {
-        background-color: #1E1E1E; /* Dark background */
+        background-color: #222831;  /* Dark gray background */
+        color: white !important;
+        border-right: 2px solid #393E46;  /* Subtle border */
         padding: 15px;
     }
 
-    /* Sidebar Card Container */
-    .sidebar-card {
-        background: white;
-        border-radius: 12px;
-        padding: 15px;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* Sidebar Title */
-    .sidebar-title {
-        font-size: 18px;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        gap: 10px;
+    [data-testid="stSidebar"] * {
+        color: white !important;  /* Ensures all text is white */
     }
 
     /* Button Styling */
-    .sidebar-btn {
-        background: #17A2B8; /* Teal Color */
+    .stButton>button {
+        background-color: #00ADB5; /* Teal button color */
         color: white;
-        padding: 10px;
-        text-align: center;
-        border-radius: 6px;
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 0.3s;
-    }
-
-    .sidebar-btn:hover {
-        background: #138496;
-    }
-
-    .active-btn {
-        background: #28A745; /* Green for Active */
-    }
-
-    /* About Section */
-    .sidebar-about {
-        background: #DCE3F5;
-        padding: 10px;
         border-radius: 8px;
-        margin-top: 20px;
-        text-align: center;
+        padding: 8px;
+        border: none;
     }
-
-    /* Footer */
-    .sidebar-footer {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 10px;
-    }
+    
+    .stButton>button:hover {
+        background-color: #008B8B; /* Darker teal on hover */
   </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
