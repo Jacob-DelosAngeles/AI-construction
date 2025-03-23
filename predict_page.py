@@ -65,6 +65,13 @@ def show_predict_page():
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
+
+    [data-testid="stSidebar"] {
+        background-color: #222831;  /* Darker gray for better contrast */
+        color: white;
+        border-right: 2px solid #393E46;  /* Subtle border */
+        padding: 10px;
+    }
     
   </style>
   """
