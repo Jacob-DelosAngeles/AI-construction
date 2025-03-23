@@ -80,7 +80,7 @@ def show_predict_page():
 
 # Adding Contents
   st.title("🏛️StrucSure\nConcrete's Compressive Strength Intelligent Predictor")
-  st.header("Please Input Information", divider = "black")
+  st.header("Please Input Information", divider = "blue")
   
 
 # Variables for prediction
