@@ -88,6 +88,7 @@ def show_predict_page():
     
     .stButton>button:hover {
         background-color: #008B8B; /* Darker teal on hover */
+        color: green;
   </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
