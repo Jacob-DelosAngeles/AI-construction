@@ -66,7 +66,6 @@ def show_predict_page():
     background-color: rgba(0,0,0,0);
     }
 
-    ### Side bar ####
     [data-testid="stSidebar"] {
         background-color: #222831;  /* Dark gray background */
         color: white !important;
