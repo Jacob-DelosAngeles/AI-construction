@@ -66,30 +66,95 @@ def show_predict_page():
     background-color: rgba(0,0,0,0);
     }
 
+    /* Sidebar Main Container */
     [data-testid="stSidebar"] {
-        background-color: #222831;  /* Dark gray background */
-        color: white !important;
-        border-right: 2px solid #393E46;  /* Subtle border */
+        background-color: #1E1E1E; /* Dark background */
         padding: 15px;
     }
 
-    [data-testid="stSidebar"] * {
-        color: white !important;  /* Ensures all text is white */
-        margin-bottom: 10px;
+    /* Sidebar Card Container */
+    .sidebar-card {
+        background: white;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Sidebar Title */
+    .sidebar-title {
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
     /* Button Styling */
-    .stButton>button {
-        background-color: #00ADB5; /* Teal button color */
+    .sidebar-btn {
+        background: #17A2B8; /* Teal Color */
         color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+
+    .sidebar-btn:hover {
+        background: #138496;
+    }
+
+    .active-btn {
+        background: #28A745; /* Green for Active */
+    }
+
+    /* About Section */
+    .sidebar-about {
+        background: #DCE3F5;
+        padding: 10px;
         border-radius: 8px;
-        padding: 8px;
-        border: none;
+        margin-top: 20px;
+        text-align: center;
     }
-    
-    .stButton>button:hover {
-        background-color: #008B8B; /* Darker teal on hover */
+
+    /* Footer */
+    .sidebar-footer {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
     }
+  </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Sidebar Card UI
+st.sidebar.markdown(
+    """
+    <div class="sidebar-card">
+        <div class="sidebar-title">📜 Main Menu</div>
+
+        <a href="#" class="sidebar-btn active-btn">🌍 Explore</a>
+        <a href="#" class="sidebar-btn">✅ Predict</a>
+    </div>
+
+    <div class="sidebar-about">
+        🌍 <a href="https://eo-cdt.org" target="_blank">https://eo-cdt.org</a>
+    </div>
+
+    <div class="sidebar-footer">© 2022 SatSchool</div>
+    """,
+    unsafe_allow_html=True
+)
+
     
   </style>
   """
