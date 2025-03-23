@@ -84,6 +84,8 @@ def show_predict_page():
   st.write("<div style='text-align:center;'>Concrete's Compressive Strength Intelligent Predictor</div>", unsafe_allow_html=True)
   st.markdown("<h3 style='text-align: center;'>Please input information</h3>", unsafe_allow_html=True)
   #st.subheader("Please Input Information", divider = "red
+  st.markdown("<hr style='border: 2px solid black;'>", unsafe_allow_html=True)
+
   
   
 
