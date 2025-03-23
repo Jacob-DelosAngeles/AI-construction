@@ -9,7 +9,7 @@ if "page" not in st.session_state:
   st.session_state.page = "Explore"  # Default page
 
 # Sidebar buttons
-st.sidebar.title("🔹 StrucSure")
+st.sidebar.title("🔹Main Menu")
 if st.sidebar.button("🌍 Explore  "):
   st.session_state.page = "Explore"
 
