@@ -10,10 +10,10 @@ if "page" not in st.session_state:
 
 # Sidebar buttons
 st.sidebar.title("🔹 StrucSure")
-if st.sidebar.button("🌍 Explore"):
+if st.sidebar.button("🌍 Explore  "):
   st.session_state.page = "Explore"
 
-if st.sidebar.button("✅ Predict"):
+if st.sidebar.button("✅ Predict  "):
   st.session_state.page = "Predict"
 
 # Display the selected page
