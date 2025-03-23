@@ -12,6 +12,31 @@ def show_explore_page():
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
+
+    ### Side bar ###
+    [data-testid="stSidebar"] {
+        background-color: #222831;  /* Dark gray background */
+        color: white !important;
+        border-right: 2px solid #393E46;  /* Subtle border */
+        padding: 15px;
+    }
+
+    [data-testid="stSidebar"] * {
+        color: white !important;  /* Ensures all text is white */
+    }
+
+    /* Button Styling */
+    .stButton>button {
+        background-color: #00ADB5; /* Teal button color */
+        color: white;
+        border-radius: 8px;
+        padding: 8px;
+        border: none;
+    }
+    
+    .stButton>button:hover {
+        background-color: #008B8B; /* Darker teal on hover */
+        
   </style>
   """
    # Pending sidebar background
