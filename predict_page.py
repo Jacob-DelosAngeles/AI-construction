@@ -132,31 +132,6 @@ def show_predict_page():
         margin-top: 10px;
     }
   </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Sidebar Card UI
-st.sidebar.markdown(
-    """
-    <div class="sidebar-card">
-        <div class="sidebar-title">📜 Main Menu</div>
-
-        <a href="#" class="sidebar-btn active-btn">🌍 Explore</a>
-        <a href="#" class="sidebar-btn">✅ Predict</a>
-    </div>
-
-    <div class="sidebar-about">
-        🌍 <a href="https://eo-cdt.org" target="_blank">https://eo-cdt.org</a>
-    </div>
-
-    <div class="sidebar-footer">© 2022 SatSchool</div>
-    """,
-    unsafe_allow_html=True
-)
-
-    
-  </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
