@@ -75,6 +75,7 @@ def show_predict_page():
 
     [data-testid="stSidebar"] * {
         color: white !important;  /* Ensures all text is white */
+        margin-bottom: 15px;
     }
 
     /* Button Styling */
