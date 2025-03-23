@@ -12,7 +12,6 @@ def show_explore_page():
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
-
     
     [data-testid="stSidebar"] {
         background-color: #222831;  /* Dark gray background */
