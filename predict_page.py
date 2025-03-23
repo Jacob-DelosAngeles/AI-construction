@@ -90,21 +90,6 @@ def show_predict_page():
         background-color: #008B8B; /* Darker teal on hover */
         color: white;
     }
-
-    .sidebar-btn {
-    background: #17A2B8; /* Teal Color */
-    color: white;
-    padding: 12px;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    display: block; /* Makes buttons fill width */
-    width: 100%; /* Ensures both buttons are the same width */
-    box-sizing: border-box; /* Prevents padding from affecting width */
-    transition: 0.3s;
-    }
   </style>
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
