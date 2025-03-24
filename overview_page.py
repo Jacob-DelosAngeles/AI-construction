@@ -13,11 +13,9 @@ def show_overview_page():
     background-color: rgba(0,0,0,0);
     }
     
-    [data-testid="stSidebar"] {
-        background-color: #222831;  /* Dark gray background */
-        color: white !important;
-        border-right: 2px solid #393E46;  /* Subtle border */
-        padding: 15px;
+    [data-testid="stSidebar"]{
+    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/SideBar_bg.png");
+    background-position: center;
     }
 
     [data-testid="stSidebar"] * {
@@ -38,13 +36,7 @@ def show_overview_page():
         
   </style>
   """
-   # Pending sidebar background
-  """
-  [data-testid="stSidebar"]{
-    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar_1.jpg");
-    background-position: center;
-    }
-  """
+   
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
   
