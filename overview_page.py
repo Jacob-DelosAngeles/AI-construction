@@ -1,6 +1,6 @@
 import streamlit as st
 
-def show_explore_page():
+def show_overview_page():
 
   # Adding Background
   page_bg_img = """
