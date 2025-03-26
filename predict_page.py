@@ -102,7 +102,7 @@ def show_predict_page():
 
 # Adding Contents
   #st.title("🏛️StrucSure")
-  st.markdown("<h1 style='text-align: center;'>Strucsure</h1>", unsafe_allow_html=True)
+  st.markdown("<h1 style='text-align: center;'>StrucSure</h1>", unsafe_allow_html=True)
   st.write("<div style='text-align:center;'>Concrete's Compressive Strength Intelligent Predictor</div>", unsafe_allow_html=True)
   st.markdown("<h3 style='text-align: center;'>Please input information</h3>", unsafe_allow_html=True)
   #st.subheader("Please Input Information", divider = "red
