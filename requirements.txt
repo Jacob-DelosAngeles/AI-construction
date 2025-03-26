@@ -3,4 +3,4 @@ numpy
 pandas
 matplotlib
 scikit-learn
-st-pages
+st-pages==1.0.1
