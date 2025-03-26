@@ -41,7 +41,8 @@ def show_overview_page():
 
   
   # Add contents
-  st.title(" VelocityAI ")
+  #st.title(" VelocityAI ")
+  st.markdown("<h1 style='text-align: center;'>VelocityAI Inc.</h1>", unsafe_allow_html=True)
   st.markdown("<h3 style='text-align: center;'>Building Strength with Data-Driven Intelligence</h3>", unsafe_allow_html=True)
   #st.info("""### Building Strength with Data-Driven Intelligence """)
   st.write("""#### At Velocity AI, we are redefining how the construction industry ensures concrete strength. Our AI-powered tool, StrucSure, predicts the compressive strength of concrete with high accuracy, helping engineers, developers, and construction firms save time, reduce material waste, and improve quality control. Instead of waiting for lab tests, you can get instant predictions using our machine learning model—helping you make faster, smarter, and cost-efficient decisions in your projects.""")
