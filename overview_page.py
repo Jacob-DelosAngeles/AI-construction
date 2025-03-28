@@ -1,6 +1,7 @@
 import streamlit as st
 
 
+
 def show_overview_page():
 
   # Adding Background
@@ -40,6 +41,19 @@ def show_overview_page():
    
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
+  st.markdown(
+    """
+    <style>
+    .stImage img {
+        max-height: 150px;  /* Adjust the height */
+        width: auto; 
+        display: block;
+        margin: auto;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
   
   # Add contents
   st.markdown("<h1 style='text-align: center;'>VelocityAI Inc.</h1>", unsafe_allow_html=True)
