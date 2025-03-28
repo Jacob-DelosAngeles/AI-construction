@@ -56,8 +56,8 @@ def show_overview_page():
 )
   
   # Add contents
+  st.image("https://jacob-delosangeles.github.io/AI-construction/images/LOGO.png")
   st.markdown("<h1 style='text-align: center;'>VelocityAI Inc.</h1>", unsafe_allow_html=True)
-  #st.image("https://jacob-delosangeles.github.io/AI-construction/images/LOGO.png")
   st.markdown('<h5 style="text-align: center;">"Building Strength with Data-Driven Intelligence"</h5>', unsafe_allow_html=True)
   st.markdown(
     """
