@@ -3,4 +3,5 @@ numpy
 pandas
 matplotlib
 scikit-learn
+keras
 st-pages==1.0.1
