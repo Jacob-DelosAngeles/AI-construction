@@ -61,13 +61,13 @@ def show_overview_page():
   st.markdown('<h5 style="text-align: center;">"Building Strength with Data-Driven Intelligence"</h5>', unsafe_allow_html=True)
   st.markdown(
     """
-    <div style="text-indent: 30px; text-align: justify;">
+    <h4 style="text-indent: 30px; text-align: justify;">
         At <strong>VelocityAI</strong>, we are redefining how the construction industry ensures concrete strength. 
         Our AI-powered tool, <strong>StrucSure</strong>, estimates the compressive strength of concrete with high accuracy, 
         helping engineers and construction firms save time, <u>reduce material waste</u>, and improve quality control. 
         Before conducting concrete mixes, you can get <u>instant predictions</u> using our machine learning model, 
         helping you <u>optimize materials</u> for cost-efficient decisions in your projects.
-    </div>
+    </h4>
     """,
     unsafe_allow_html=True
   )
