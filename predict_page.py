@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 
-# Loading the Model
+# Loading the Model - Linear Refression
 def load_model():
   with open('saved_steps.pkl', 'rb') as file:
     data = pickle.load(file)
@@ -13,7 +13,7 @@ def load_model():
 data = load_model()
 regressor = data['model']
 
-
+# Loading the Model - Neural Network
 
 
 # Checking if the Input values are within the range
