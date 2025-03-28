@@ -42,7 +42,6 @@ def show_overview_page():
 
   
   # Add contents
-  #st.title(" VelocityAI ")
   st.markdown("<h1 style='text-align: center;'>VelocityAI </h1>", unsafe_allow_html=True)
   st.markdown("<h3 style='text-align: center;'>Building Strength with Data-Driven Intelligence</h3>", unsafe_allow_html=True)
   #st.info("""### Building Strength with Data-Driven Intelligence """)
