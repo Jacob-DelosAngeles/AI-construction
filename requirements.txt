@@ -4,4 +4,5 @@ pandas
 matplotlib
 scikit-learn
 keras
+tensorflow
 st-pages==1.0.1
