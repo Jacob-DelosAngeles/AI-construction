@@ -15,7 +15,7 @@ regressor = data['model']
 
 # Loading the Model - Neural Network
 def load_nn_model(filename='model.pkl'):
-  with open('filename', 'rb') as file:
+  with open(filename, 'rb') as file:
     model = pickle.load(file)
   return model
 
