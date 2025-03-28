@@ -50,7 +50,7 @@ def show_overview_page():
   st.markdown(
       """
       <div style="display: flex; justify-content: center;">
-          <img src="/images/LOGO.png" width="200">
+          <img src="https://jacob-delosangeles.github.io/AI-construction/images/LOGO.png" width="200">
       </div>
       """,
       unsafe_allow_html=True
