@@ -14,7 +14,12 @@ data = load_model()
 regressor = data['model']
 
 # Loading the Model - Neural Network
+def load_nn_model(filename='model.pkl'):
+  with open('filename', 'rb') as file:
+    model = pickle.load(file)
+  return model
 
+model = load_nn_model('ComplexNN.pkl')
 
 # Checking if the Input values are within the range
 
@@ -145,7 +150,7 @@ def show_predict_page():
       # Normalization of Data
       X_norm = (X - data['mu'])/data['sigma']
   
-      strength = regressor.predict(X_norm)
+      strength = model.predict(X_norm)                                # model = neural network, regressor = linear regression
       st.subheader(f"Estimated Strength: {strength[0]:.2f} csMPa")
 
     else:
