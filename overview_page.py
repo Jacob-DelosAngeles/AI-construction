@@ -45,7 +45,7 @@ def show_overview_page():
     """
     <style>
     .stImage img {
-        max-height: 150px;  /* Adjust the height */
+        max-height: 300 px;  /* Adjust the height */
         width: auto; 
         display: block;
         margin: auto;
