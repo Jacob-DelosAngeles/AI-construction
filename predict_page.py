@@ -148,8 +148,8 @@ def show_predict_page():
     # Normalization of Data
     X_norm = (X - data['mu'])/data['sigma']
   
-    strength = model.predict(X_norm)    # model- neural network, regressor - linear regression
-    st.subheader(f"Estimated Strength: {(strength[0][0]):.2f} csMPa")  
+    #strength = model.predict(X_norm)    # model- neural network, regressor - linear regression
+    #st.subheader(f"Estimated Strength: {(strength[0][0]):.2f} csMPa")  
     
 
     
