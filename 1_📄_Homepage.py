@@ -32,7 +32,7 @@ pg = st.navigation(
 
 # ---- Logo on all Pages ----
 st.logo("images/LOGO.png")
-st.sidebar.test("Forward Progress. Proper Direction")
+st.sidebar.text("Forward Progress. Proper Direction")
 
 
 # ----- Run Navigation --------
