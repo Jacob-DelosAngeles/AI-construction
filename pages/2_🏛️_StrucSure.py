@@ -22,7 +22,7 @@ def load_nn_model(filename='model.pkl'):
     model = pickle.load(file)
   return model
 
-model = load_nn_model('ComplexNN.pkl')
+model = load_nn_model('500_250_100_50_1_ComplexNN.pk')
 
 # Checking if the Input values are within the range
 
