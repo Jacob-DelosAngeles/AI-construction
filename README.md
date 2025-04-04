@@ -5,7 +5,7 @@ Compressive Strength Prediction
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://AI-construction.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-construction-strucsure.streamlit.app/)
 
 ## GitHub Codespaces
 
