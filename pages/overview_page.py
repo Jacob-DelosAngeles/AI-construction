@@ -70,3 +70,5 @@ def show_overview_page():
     """,
     unsafe_allow_html=True
   )
+
+show_overview_page()
