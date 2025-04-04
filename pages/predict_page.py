@@ -76,13 +76,7 @@ def show_predict_page():
   """
   st.markdown(page_bg_img, unsafe_allow_html=True)
 
-  # Pending sidebar background
-  """
-  [data-testid="stSidebar"]{
-    background-image: url("https://jacob-delosangeles.github.io/AI-construction/images/backgroundSidebar_1.jpg");
-    background-position: center;
-    }
-  """
+  
 
 # Adding Contents
   st.markdown("<h1 style='text-align: center;'>StrucSure</h1>", unsafe_allow_html=True)
