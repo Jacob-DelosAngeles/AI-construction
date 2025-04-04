@@ -2,14 +2,14 @@ import streamlit as st
 
 # ----- PAGE SETUP -------
 home_page = st.Page(
-  page = "page/overview_page.py",
+  page = "pages/overview_page.py",
   title="Homepage",
   icon = "📄",
   default=True,
 )
 
 strucsure_page = st.Page(
-  page = "page/StrucSure.py",
+  page = "pages/StrucSure.py",
   title = "StrucSure",
   icon="🏦",
 
