@@ -33,7 +33,7 @@ pg = st.navigation(
 # ---- Logo on all Pages ----
 st.logo("images/LOGO.png")
 st.sidebar.markdown("<hr style='background-color: white; margin: 15px 0;'>", unsafe_allow_html=True)
-st.sidebar.text('"Forward Progress. Proper Direction"')
+#st.sidebar.text('"Forward Progress. Proper Direction"')
 
 
 # ----- Run Navigation --------
