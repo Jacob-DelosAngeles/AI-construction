@@ -15,12 +15,18 @@ strucsure_page = st.Page(
 
 )
 
+algorithms_page = st.Page(
+  page = "pages/algorithms.py",
+  title = "Machine Learning Algorithms",
+  icon = "💻"
+)
+
 # ---- Navigation with section ----
 
 pg = st.navigation(
   {
     "Home": [home_page],
-    "Projects": [strucsure_page]
+    "Projects": [strucsure_page, algorithms_page]
   }
 )
 
