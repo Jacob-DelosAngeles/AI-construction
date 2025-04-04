@@ -25,8 +25,8 @@ algorithms_page = st.Page(
 
 pg = st.navigation(
   {
-    "Home": [home_page],
-    "Projects": [strucsure_page, algorithms_page]
+    "Home": [home_page, algorithms_page],
+    "Projects": [strucsure_page]
   }
 )
 
