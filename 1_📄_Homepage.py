@@ -9,5 +9,20 @@ home_page = st.Page(
 )
 
 strucsure_page = st.Page(
-  page = "page/"
+  page = "page/StrucSure.py",
+  title = "StrucSure",
+  icon="🏦",
+
 )
+
+# ---- Navigation with section ----
+
+pg = st.navigation(
+  {
+    "Home": [home_page],
+    "Projects": [strucsure_page]
+  }
+)
+
+# ----- Run Navigation --------
+pg.run()
