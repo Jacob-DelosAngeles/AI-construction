@@ -11,13 +11,6 @@ Compressive Strength Prediction
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
-## Section Heading
+## About Us
 
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+At VelocityAI, we are redefining how the construction industry ensures concrete strength. Our AI-powered tool, StrucSure, estimates the compressive strength of concrete with high accuracy, helping engineers and construction firms save time, reduce material waste, and improve quality control. Before conducting concrete mixes, you can get instant predictions using our machine learning model, helping you optimize materials for cost-efficient decisions in your projects.
