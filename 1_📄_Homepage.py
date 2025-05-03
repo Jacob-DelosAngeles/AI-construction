@@ -38,3 +38,5 @@ st.sidebar.markdown("<hr style='background-color: white; margin: 15px 0;'>", uns
 
 # ----- Run Navigation --------
 pg.run()
+
+# ----- Additional Features -----
