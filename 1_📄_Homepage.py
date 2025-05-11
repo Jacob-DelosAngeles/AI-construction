@@ -17,7 +17,7 @@ strucsure_page = st.Page(
 
 algorithms_page = st.Page(
   page = "pages/algorithms.py",
-  title = "Machine Learning Algorithms",
+  title = "Machine Learning",
   icon = "💻"
 )
 

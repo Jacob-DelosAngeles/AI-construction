@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 
-# Loading the Model - Linear Refression
+# Loading the Model - Linear Regression
 def load_model():
   with open('saved_steps.pkl', 'rb') as file:
     data = pickle.load(file)

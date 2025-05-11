@@ -35,4 +35,23 @@ page_bg_img = """
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.title("Under Development")
+
+def show_machine_learning():
+
+  st.markdown('<h1>Machine Learning Process</h1>', unsafe_allow_html=True)
+
+  st.markdown("""
+  <p>This section outlines the steps taken to develop the AI model used in <strong>StrucSure</strong>, from data collection to model deployment.</p>
+
+  <h3><u>Steps Followed:</u></h3>
+  <ol>
+    <li><strong>Data Collection</strong><br>We sourced a concrete compressive strength dataset from <a href="https://www.kaggle.com/datasets">Kaggle</a>.</li>
+    <li><strong>Feature Engineering</strong><br>We cleaned the data, handled missing values, normalized features, and split the dataset into training and testing sets.</li>
+    <li><strong>Model Development</strong><br>An Artificial Neural Network (ANN) model was implemented using TensorFlow/Keras to predict compressive strength.</li>
+    <li><strong>Training & Evaluation</strong><br>The model was trained, evaluated using metrics like MAE and RMSE, and tuned for optimal performance.</li>
+  </ol>
+  """, unsafe_allow_html=True)
+
+  st.markdown('<h2>Data Collection</h2>', unsafe_allow_html=True)
+
+show_machine_learning()
