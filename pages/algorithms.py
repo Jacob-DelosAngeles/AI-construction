@@ -52,6 +52,5 @@ def show_machine_learning():
   </ol>
   """, unsafe_allow_html=True)
 
-  st.markdown('<h2>Data Collection</h2>', unsafe_allow_html=True)
 
 show_machine_learning()
